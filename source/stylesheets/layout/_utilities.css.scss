@@ -10,6 +10,11 @@
   padding-bottom: 5em;
 }
 
+.padded-small {
+  padding: 30px;
+}
+
+
 // Backgrounds
 .bg-text {
   background: #4a4a4a;
@@ -23,3 +28,18 @@
 .bg-facebook {
   background: #3b5998;
 }
+
+body {
+  margin: 0;
+  font-family: Open-sans, sans-serif;
+}
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
