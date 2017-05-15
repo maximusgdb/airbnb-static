@@ -1,0 +1,36 @@
+<% flat = data.flats[owner] %>
+<div class="banner" style="background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://unsplash.it/200/300/?random');">
+
+<div class="text-center">
+  <%= image_tag flat.owner_picture, class: "img-circle" %>
+
+  <p><%= flat.owner_name %></p>
+  <h1><%= flat.summary %></h1>
+  <p><%= flat.city %></p>
+</div>
+</div>
+
+<div class="col-xs-12 col-sm-4 padded-small">
+        <form action="#">
+          <h4 class= "flats-h4">Book this flat</h4>
+          <div class="form-group">
+            <div class="row">
+              <div class="col-xs-6">
+                <input type="text" class="form-control" placeholder="checkin" id="checkin">
+              </div>
+              <div class="col-xs-6">
+                <input type="text" class="form-control" placeholder="checkout">
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <select name="" id="guests" class="form-control">
+              <option value="1">1 guest</option>
+              <option value="2">2 guests</option>
+              <option value="3">3 guests</option>
+            </select>
+          </div>
+          <input type="submit" class="btn btn-danger" value="Book it" style="width: 100%">
+        </form>
+      </div>
+      </div>
